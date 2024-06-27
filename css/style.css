@@ -70,7 +70,8 @@
     }
     
     menu a:hover {
-        color: rgb(5, 66, 46);
+        color: rgb(23, 43, 146);
+        transform: scale(1.2);
     }
     
     .umbrella {
@@ -86,5 +87,76 @@
     }
     
     .sombra {
-        filter: drop-shadow(0px 0px 8px #242424);
+        filter: drop-shadow(0px 0px 8px #fafafa);
+    }
+    
+    .trailer {
+        width: 200px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        background-color: rgb(9, 9, 110);
+        position: absolute;
+        top: 300px;
+        right: 100px;
+        z-index: 99;
+        border-radius: 16px;
+        border: none;
+        color: #fafafa;
+    }
+    
+    .trailer:hover {
+        filter: brightness(.8);
+        cursor: pointer;
+    }
+    
+    .Sobre {
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    
+    .Sobre h2 {
+        width: 100%;
+        margin: 16px 0;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .fotoSobre {
+        width: 220px;
+        height: 220px;
+        overflow: hidden;
+        transition: .5s;
+        border-radius: 20px;
+    }
+    
+    .fotoSobre:hover {
+        transform: scale(1.2);
+        box-shadow: 0px 0px 8px #24242480;
+        border-radius: 20px;
+    }
+    
+    .fotoSobre img {
+        width: 100%;
+    }
+    
+    h2 {
+        width: 100%;
+        font-size: 42px;
+        text-transform: uppercase;
+        color: black;
+    }
+    
+    span {
+        font-size: 42px;
+        color: rgb(8, 8, 134);
+        position: relative;
+        top: 16px;
+        left: 20;
     }
